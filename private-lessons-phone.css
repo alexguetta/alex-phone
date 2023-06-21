@@ -1,0 +1,140 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  color: white;
+  direction: rtl;
+  --basic-color-1: #9CDDD7;
+  --basic-color-2: #16796F;
+  --basic-color-3: #5271FF;
+  --basic-color-4: #6581FF;
+  --color-used-atm: var(--basic-color-2);
+  background-color: var(--color-used-atm);
+  padding-bottom: 19%;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(var(--color-used-atm), lightblue,
+                              var(--color-used-atm) );
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo {
+  width: 90%;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 100%;
+}
+
+.presentation {
+  text-align: center;
+  width: 70%;
+  margin-bottom: 35px;
+  font-size: 270%;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.about-me {
+  font-size: 280%;
+}
+
+.picture {
+  width: 60%;
+  border-radius: 30px;
+}
+
+button {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 7%;
+}
+
+.icons-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-size: 300%;
+  color: var(--color-used-atm);
+}
+
+.link-icon {
+  width: 60%;
+  filter: invert(36%) sepia(92%) saturate(343%) hue-rotate(125deg)
+          brightness(91%) contrast(97%);
+}
+
+.phone-a {
+  width: 100%;
+}
+
+.link-icon-2 {
+  width: 50%;
+  height: 50%;
+  filter: invert(36%) sepia(92%) saturate(343%) hue-rotate(125deg)
+          brightness(91%) contrast(97%);
+}
+
+.title-reccomend {
+  display: flex;
+  justify-content: center;
+  font-size: 400%;
+}
+
+#big-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#reccomend-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background-color: white;
+  color: var(--color-used-atm);
+  width: 100%;
+  overflow: hidden;
+}
+
+#reccomend-text {
+  font-size: 300%;
+  text-align: center;
+  width: 90%; 
+  min-height: 30px;
+}
+
+.whatsapp,
+.telephone {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
